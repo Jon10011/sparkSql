@@ -9,7 +9,7 @@ object HelloSparkSql {
     //    //获取sc
     val sc = new SparkContext(conf)
     //
-    val rdd = sc.textFile("/Users/jon/Desktop/people.json")
+    val rdd = sc.textFile("/Users/jon/Desktop/学习笔记/test/people.json")
     println(rdd.count())
     println(rdd.collect())
     //获取sparkSession
